@@ -4,8 +4,9 @@
 [![Stories in Needs Review](https://badge.waffle.io/rimian/wheresocksgo.png?label=Needs%20Review&title=Needs%20Review)](https://waffle.io/rimian/wheresocksgo)
 [![Stories in Done](https://badge.waffle.io/rimian/wheresocksgo.png?label=Done&title=Done)](https://waffle.io/rimian/wheresocksgo)
 
+[![Circle CI](https://circleci.com/gh/rimian/wheresocksgo.svg?style=svg)](https://circleci.com/gh/rimian/wheresocksgo)
 
-# wheresocksgo
+# Wheresocksgo
 This is what I do for work...
 
 ## Requirements
