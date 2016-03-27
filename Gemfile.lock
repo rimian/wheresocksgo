@@ -90,10 +90,6 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rainbow (2.1.0)
     rake (11.1.1)
-    rspec (3.4.0)
-      rspec-core (~> 3.4.0)
-      rspec-expectations (~> 3.4.0)
-      rspec-mocks (~> 3.4.0)
     rspec-core (3.4.4)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
@@ -101,6 +97,14 @@ GEM
       rspec-support (~> 3.4.0)
     rspec-mocks (3.4.1)
       diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-rails (3.4.2)
+      actionpack (>= 3.0, < 4.3)
+      activesupport (>= 3.0, < 4.3)
+      railties (>= 3.0, < 4.3)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
     rubocop (0.38.0)
@@ -129,7 +133,7 @@ PLATFORMS
 DEPENDENCIES
   pg (~> 0.15)
   rails (= 4.2.6)
-  rspec (~> 3.4.0)
+  rspec-rails
   rubocop
 
 BUNDLED WITH
