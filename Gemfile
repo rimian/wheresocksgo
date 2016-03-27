@@ -6,4 +6,5 @@ gem 'pg', '~> 0.15'
 group :development, :test do
   gem 'rspec-rails'
   gem 'rubocop'
+  gem 'pry'
 end
