@@ -1,0 +1,6 @@
+inherit_from:
+  - .rubocop_wheresocksgo.yml
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'vendor/**/*'
