@@ -19,8 +19,8 @@ An API of missing socks and people that found them.
 Be sure to copy these files on your local machine:
 
 ```
-cp config/secrets.yml.example config/secrets.yml && \
-   config/secrets.yml.example config/database.yml
+cp config/secrets.yml.example config/secrets.yml
+cp config/database.yml.example config/database.yml
 ```
 
 * Create a local and test database
