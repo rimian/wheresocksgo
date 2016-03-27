@@ -1,4 +1,4 @@
-est:
+test:
   override:
     - bundle exec rspec
     - bundle exec rubocop -R
