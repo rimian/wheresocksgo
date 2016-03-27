@@ -2,7 +2,7 @@ ENV['RAILS_ENV'] ||= 'test'
 require 'rails/all'
 require 'rspec/rails'
 require File.expand_path('../../config/environment', __FILE__)
-abort("The Rails environment is running in production mode!") if Rails.env.production?
+abort('The Rails environment is running in production mode!') if Rails.env.production?
 
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |file| require(file) }
 
@@ -17,9 +17,7 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 
-  if config.files_to_run.one?
-    config.default_formatter = 'doc'
-  end
+  config.default_formatter = 'doc' if config.files_to_run.one?
 
   config.profile_examples = 10
   config.order = :random
