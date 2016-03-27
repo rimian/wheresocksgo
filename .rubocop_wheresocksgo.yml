@@ -1,0 +1,10 @@
+# These are the config options for the project. They are not TODOs.
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false

@@ -1,0 +1,7 @@
+dependencies:
+  post:
+    - cp config/secrets.yml.example config/secrets.yml
+test:
+  override:
+    - bundle exec rspec
+    - bundle exec rubocop -R

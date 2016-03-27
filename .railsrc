@@ -1,0 +1,7 @@
+--api
+--skip-test-unit
+--database=postgresql
+--skip-javascript
+--skip-spring
+--skip-turbolinks
+--skip-sprockets
