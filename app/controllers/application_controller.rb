@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def status
+    expires_now
     head status: :ok
   end
 end
