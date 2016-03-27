@@ -7,8 +7,21 @@
 [![Circle CI](https://circleci.com/gh/rimian/wheresocksgo.svg?style=svg)](https://circleci.com/gh/rimian/wheresocksgo)
 
 # Wheresocksgo
-This is what I do for work...
+
+An API of missing socks and people that found them.
 
 ## Requirements
 
 * Ruby 2.3.0
+
+## Development
+
+Be sure to copy these files on your local machine:
+
+```
+cp config/secrets.yml.example config/secrets.yml && \
+   config/secrets.yml.example config/database.yml
+```
+
+* Create a local and test database
+* Set local secrets as per config/secrets.yml
