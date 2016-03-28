@@ -50,53 +50,11 @@
   },
   "links": [
     {
-      "description": "Create a new sock.",
-      "href": "/socks",
-      "method": "POST",
-      "rel": "create",
-      "schema": {
-        "properties": {
-        },
-        "type": [
-          "object"
-        ]
-      },
-      "title": "Create"
-    },
-    {
-      "description": "Delete an existing sock.",
-      "href": "/socks/{(%2Fschemata%2Fsock%23%2Fdefinitions%2Fidentity)}",
-      "method": "DELETE",
-      "rel": "destroy",
-      "title": "Delete"
-    },
-    {
-      "description": "Info for existing sock.",
-      "href": "/socks/{(%2Fschemata%2Fsock%23%2Fdefinitions%2Fidentity)}",
-      "method": "GET",
-      "rel": "self",
-      "title": "Info"
-    },
-    {
       "description": "List existing socks.",
       "href": "/socks",
       "method": "GET",
       "rel": "instances",
       "title": "List"
-    },
-    {
-      "description": "Update an existing sock.",
-      "href": "/socks/{(%2Fschemata%2Fsock%23%2Fdefinitions%2Fidentity)}",
-      "method": "PATCH",
-      "rel": "update",
-      "schema": {
-        "properties": {
-        },
-        "type": [
-          "object"
-        ]
-      },
-      "title": "Update"
     }
   ],
   "properties": {
