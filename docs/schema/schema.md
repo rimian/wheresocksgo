@@ -25,7 +25,8 @@ GET /socks
 #### Curl Example
 
 ```bash
-$ curl -n https://wheresocksgo.herokuapp.com/api/socks
+$ curl -n https://wheresocksgo.herokuapp.com/api/socks \
+  -H "Accept: application/vnd.wheresocksgo+json; version=1"
 ```
 
 
