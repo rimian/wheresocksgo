@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/hyper-schema",
   "title": "FIXME - Sock",
-  "description": "FIXME",
+  "description": "Where socks go",
   "stability": "prototype",
   "strictProperties": true,
   "type": [

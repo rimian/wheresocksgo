@@ -2,7 +2,7 @@
 
 Stability: `prototype`
 
-FIXME
+Where socks go
 
 ### Attributes
 
