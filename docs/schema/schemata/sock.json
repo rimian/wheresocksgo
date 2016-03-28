@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/hyper-schema",
-  "title": "FIXME - Sock",
+  "title": "Socks",
   "description": "Where socks go",
   "stability": "prototype",
   "strictProperties": true,
@@ -32,20 +32,6 @@
           "$ref": "/schemata/sock#/definitions/name"
         }
       ]
-    },
-    "created_at": {
-      "description": "when sock was created",
-      "format": "date-time",
-      "type": [
-        "string"
-      ]
-    },
-    "updated_at": {
-      "description": "when sock was updated",
-      "format": "date-time",
-      "type": [
-        "string"
-      ]
     }
   },
   "links": [
@@ -59,17 +45,11 @@
     }
   ],
   "properties": {
-    "created_at": {
-      "$ref": "/schemata/sock#/definitions/created_at"
-    },
     "id": {
       "$ref": "/schemata/sock#/definitions/id"
     },
     "name": {
       "$ref": "/schemata/sock#/definitions/name"
-    },
-    "updated_at": {
-      "$ref": "/schemata/sock#/definitions/updated_at"
     }
   },
   "id": "schemata/sock"
