@@ -47,6 +47,7 @@ GEM
       activesupport (>= 4.1.0)
     i18n (0.7.0)
     json (1.8.3)
+    json_schema (0.12.2)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.4)
@@ -63,6 +64,9 @@ GEM
       ast (~> 2.2)
     pg (0.18.4)
     powerpack (0.1.1)
+    prmd (0.11.6)
+      erubis (~> 2.7)
+      json_schema (~> 0.3, >= 0.3.1)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -139,6 +143,7 @@ PLATFORMS
 
 DEPENDENCIES
   pg (~> 0.15)
+  prmd
   pry
   rails (= 4.2.6)
   rspec-rails

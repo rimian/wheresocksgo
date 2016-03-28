@@ -7,4 +7,5 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'rubocop'
   gem 'pry'
+  gem 'prmd'
 end
