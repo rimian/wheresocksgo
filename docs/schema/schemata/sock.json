@@ -37,7 +37,7 @@
   "links": [
     {
       "description": "List existing socks.",
-      "href": "/socks",
+      "href": "/api/socks",
       "http_header": { "Accept": "application/vnd.wheresocksgo+json; version=1" },
       "method": "GET",
       "rel": "instances",
