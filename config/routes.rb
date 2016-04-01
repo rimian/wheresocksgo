@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   namespace :api do
     api_version(1) do
       get '/', action: :index, controller: :base
+      resources :socks, only: [:index]
     end
   end
 end
