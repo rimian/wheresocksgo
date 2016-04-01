@@ -1,5 +1,9 @@
 class Api::V1::SocksController < ApplicationController
   def index
-    head status: :ok
+    socks = [
+
+    ]
+
+    render json: socks, status: :ok
   end
 end
