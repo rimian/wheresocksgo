@@ -8,7 +8,11 @@
 
 # Wheresocksgo
 
-An API of missing socks and people that found them.
+This the application I work on between contracts. It's a sandbox for me to try new ideas and also a demonstration of my skill-set for any potential employer. See the the current status of development [here](https://waffle.io/rimian/wheresocksgo).
+
+## The API
+
+[Read the docs](docs/api.md).
 
 ## Requirements
 
