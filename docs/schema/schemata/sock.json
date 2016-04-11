@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema",
+  "title": "Socks",
+  "description": "Where socks go",
+  "stability": "prototype",
+  "strictProperties": true,
+  "type": [
+    "object"
+  ],
+  "definitions": {
+    "id": {
+      "description": "unique identifier of sock",
+      "readOnly": true,
+      "format": "uuid",
+      "type": [
+        "string"
+      ]
+    },
+    "name": {
+      "description": "unique name of sock",
+      "readOnly": true,
+      "type": [
+        "string"
+      ]
+    },
+    "identity": {
+      "anyOf": [
+        {
+          "$ref": "/schemata/sock#/definitions/id"
+        },
+        {
+          "$ref": "/schemata/sock#/definitions/name"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "description": "List existing socks.",
+      "href": "/api/socks",
+      "http_header": { "Accept": "application/vnd.wheresocksgo+json; version=1" },
+      "method": "GET",
+      "rel": "instances",
+      "title": "List"
+    }
+  ],
+  "properties": {
+    "id": {
+      "$ref": "/schemata/sock#/definitions/id"
+    },
+    "name": {
+      "$ref": "/schemata/sock#/definitions/name"
+    }
+  },
+  "id": "schemata/sock"
+}
