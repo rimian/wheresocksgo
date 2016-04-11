@@ -16,14 +16,14 @@ Where socks go
 List existing socks.
 
 ```
-GET /socks
+GET /api/socks
 ```
 
 
 #### Curl Example
 
 ```bash
-$ curl -n https://wheresocksgo.herokuapp.com/api/socks \
+$ curl -n https://wheresocksgo.herokuapp.com/api/api/socks \
   -H "Accept: application/vnd.wheresocksgo+json; version=1"
 ```
 
