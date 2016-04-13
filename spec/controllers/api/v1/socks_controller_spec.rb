@@ -1,5 +1,5 @@
 
-RSpec.describe Api::V1::SocksController, type: :controller do
+RSpec.describe API::V1::SocksController, type: :controller do
   include Committee::Test::Methods
   let(:schema_path) { "#{Rails.root}/docs/schema/schema.json" }
   let(:last_response) { response }

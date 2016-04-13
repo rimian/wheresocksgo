@@ -1,4 +1,4 @@
-class Api::V1::SocksController < ApplicationController
+class API::V1::SocksController < ApplicationController
   def index
     socks = [
       {
