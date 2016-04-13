@@ -5,13 +5,19 @@ RSpec.describe API::V1::SocksController, type: :controller do
   let(:last_response) { response }
   let(:last_request) { request }
 
-  it 'responds ok' do
+  before do
     get :index, {}, HTTP_ACCEPT: 'application/vnd.wheresocksgo+json; version=1'
+  end
+
+  it 'responds ok' do
     expect(response).to have_http_status(:ok)
   end
 
   it 'conforms to the schema' do
-    get :index, {}, HTTP_ACCEPT: 'application/vnd.wheresocksgo+json; version=1'
     assert_schema_conform
+  end
+
+  it 'has the JSON media type' do
+    expect(response.content_type).to eq Mime::JSON
   end
 end
