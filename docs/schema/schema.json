@@ -36,6 +36,20 @@
             "string"
           ]
         },
+        "latitude": {
+          "description": "latitude of sock coordinates",
+          "readOnly": true,
+          "type": [
+            "number"
+          ]
+        },
+        "longitude": {
+          "description": "longitude of sock coordinates",
+          "readOnly": true,
+          "type": [
+            "number"
+          ]
+        },
         "identity": {
           "anyOf": [
             {
@@ -68,6 +82,12 @@
         },
         "body": {
           "$ref": "#/definitions/sock/definitions/body"
+        },
+        "latitude": {
+          "$ref": "#/definitions/sock/definitions/latitude"
+        },
+        "longitude": {
+          "$ref": "#/definitions/sock/definitions/longitude"
         }
       }
     }

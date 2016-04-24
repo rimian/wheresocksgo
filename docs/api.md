@@ -10,6 +10,8 @@ Where socks go
 | ------- | ------- | ------- | ------- |
 | **body** | *string* | body describing of the sock | `"example"` |
 | **id** | *uuid* | unique identifier of sock | `"01234567-89ab-cdef-0123-456789abcdef"` |
+| **latitude** | *number* | latitude of sock coordinates | `42.0` |
+| **longitude** | *number* | longitude of sock coordinates | `42.0` |
 | **title** | *string* | title of the sock | `"example"` |
 
 ### Socks List
@@ -40,7 +42,9 @@ HTTP/1.1 200 OK
   {
     "id": "01234567-89ab-cdef-0123-456789abcdef",
     "title": "example",
-    "body": "example"
+    "body": "example",
+    "latitude": 42.0,
+    "longitude": 42.0
   }
 ]
 ```

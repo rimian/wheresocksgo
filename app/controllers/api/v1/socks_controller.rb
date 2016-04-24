@@ -4,7 +4,9 @@ class API::V1::SocksController < ApplicationController
       {
         id: 'de305d54-75b4-431b-adb2-eb6b9e546014',
         title: 'the sock',
-        body: 'something'
+        body: 'something',
+        latitude: 23.348675334678,
+        longitude: -122.3475456545
       }
     ]
 

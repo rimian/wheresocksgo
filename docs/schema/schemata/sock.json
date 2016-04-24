@@ -30,6 +30,20 @@
         "string"
       ]
     },
+    "latitude": {
+      "description": "latitude of sock coordinates",
+      "readOnly": true,
+      "type": [
+        "number"
+      ]
+    },
+    "longitude": {
+      "description": "longitude of sock coordinates",
+      "readOnly": true,
+      "type": [
+        "number"
+      ]
+    },
     "identity": {
       "anyOf": [
         {
@@ -60,6 +74,12 @@
     },
     "body": {
       "$ref": "/schemata/sock#/definitions/body"
+    },
+    "latitude": {
+      "$ref": "/schemata/sock#/definitions/latitude"
+    },
+    "longitude": {
+      "$ref": "/schemata/sock#/definitions/longitude"
     }
   },
   "id": "schemata/sock"
