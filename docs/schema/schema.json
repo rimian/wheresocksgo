@@ -29,6 +29,13 @@
             "string"
           ]
         },
+        "body": {
+          "description": "body describing of the sock",
+          "readOnly": true,
+          "type": [
+            "string"
+          ]
+        },
         "identity": {
           "anyOf": [
             {
@@ -58,6 +65,9 @@
         },
         "title": {
           "$ref": "#/definitions/sock/definitions/title"
+        },
+        "body": {
+          "$ref": "#/definitions/sock/definitions/body"
         }
       }
     }
