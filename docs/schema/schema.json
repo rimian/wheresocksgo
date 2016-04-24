@@ -51,12 +51,9 @@
           ]
         },
         "identity": {
-          "anyOf": [
+          "allOf": [
             {
               "$ref": "#/definitions/sock/definitions/id"
-            },
-            {
-              "$ref": "#/definitions/sock/definitions/title"
             }
           ]
         }
