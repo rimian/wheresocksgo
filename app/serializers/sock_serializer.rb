@@ -6,10 +6,10 @@ class SockSerializer < ActiveModel::Serializer
   end
 
   def latitude
-    33
+    object.latitude.to_f
   end
 
   def longitude
-    34
+    object.longitude.to_f
   end
 end
