@@ -16,8 +16,8 @@
         "string"
       ]
     },
-    "name": {
-      "description": "unique name of sock",
+    "title": {
+      "description": "title of the sock",
       "readOnly": true,
       "type": [
         "string"
@@ -29,7 +29,7 @@
           "$ref": "/schemata/sock#/definitions/id"
         },
         {
-          "$ref": "/schemata/sock#/definitions/name"
+          "$ref": "/schemata/sock#/definitions/title"
         }
       ]
     }
@@ -48,8 +48,8 @@
     "id": {
       "$ref": "/schemata/sock#/definitions/id"
     },
-    "name": {
-      "$ref": "/schemata/sock#/definitions/name"
+    "title": {
+      "$ref": "/schemata/sock#/definitions/title"
     }
   },
   "id": "schemata/sock"
