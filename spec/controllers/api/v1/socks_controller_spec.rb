@@ -6,6 +6,7 @@ RSpec.describe API::V1::SocksController, type: :controller do
   let(:last_request) { request }
 
   before do
+    create(:sock)
     get :index, {}, HTTP_ACCEPT: 'application/vnd.wheresocksgo+json; version=1'
   end
 
