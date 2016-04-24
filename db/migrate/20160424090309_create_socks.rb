@@ -1,6 +1,6 @@
 class CreateSocks < ActiveRecord::Migration
   def change
-    create_table :socks do |t|
+    create_table :socks, id: :uuid do |t|
       t.string :title, limit: 255
       t.string :body, limit: 255
       t.integer :user_id
