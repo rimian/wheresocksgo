@@ -17,7 +17,11 @@ ActiveRecord::Schema.define(version: 20160414090904) do
   enable_extension "plpgsql"
 
   create_table "socks", force: :cascade do |t|
-    t.string "name", limit: 255
+    t.string  "title",     limit: 255
+    t.string  "body",      limit: 255
+    t.integer "user_id"
+    t.decimal "latitude",              precision: 10, scale: 6
+    t.decimal "longitude",             precision: 10, scale: 6
   end
 
 end
